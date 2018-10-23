@@ -58,6 +58,7 @@ RCT_ENUM_CONVERTER(NSCalendarUnit,
   notification.userInfo = [RCTConvert NSDictionary:details[@"userInfo"]];
   notification.category = [RCTConvert NSString:details[@"category"]];
   notification.repeatInterval = [RCTConvert NSCalendarUnit:details[@"repeatInterval"]];
+  notification.timeZone = [NSTimeZone defaultTimeZone];
   if (details[@"applicationIconBadgeNumber"]) {
     notification.applicationIconBadgeNumber = [RCTConvert NSInteger:details[@"applicationIconBadgeNumber"]];
   }
