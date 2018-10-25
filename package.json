@@ -1,5 +1,5 @@
 {
-  "name": "pushnotificationios",
+  "name": "react-native-PushNotificationIOS",
   "version": "1.0.0",
   "description": "",
   "main": "PushNotificationIOS.js",
